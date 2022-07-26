@@ -1,0 +1,103 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 28px;
+	
+
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Open Sans', sans-serif;
+
+}
+.h1{
+	font-size: 40px;
+	line-height: 50px;
+}
+.green{
+	width: 600px;
+	height: 300px;
+	background: green;
+	position: relative;
+}
+.red{
+	width: 180px;
+	height: 180px;
+	background: red;
+	border-radius: 100%;
+	position: absolute;
+	left: 30%;
+	top: 20%;
+}
+.green .fb{
+	width: 180px;
+	position: fixed;
+	top: 40%;
+	right: -125px;
+	transition: 1s;
+
+}
+.green .fb:hover{
+	right: -2px;
+	cursor: pointer;
+
+}
+.green .in{
+	width: 180px;
+	position: fixed;
+	top: 50%;
+	right: -125px;
+	transition: 1s;
+
+}
+.green .in:hover{
+	right: -2px;
+	cursor:pointer ;
+}
+.green .pin{
+	width: 180px;
+	position: fixed;
+	top: 60%;
+	right: -125px;
+	transition: 1s;
+}
+.green .pin:hover{
+	cursor: pointer;
+	right: -2px;
+}
+.social-icons{
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 40px 0px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icons li a{
+	display: block;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	border: 2px solid;
+	background: #000;
+	font-size: 25px;
+	margin: 0px 15px;
+	color: #fff;
+	transition: 1s;
+}
+.social-icons li a:hover{
+	background: transparent;
+	color: #000;
+	border-radius: #000;
+}
+.social-icons li a:focus{
+	background: transparent;
+	color: #000;
+	border-radius: #000;
+}
